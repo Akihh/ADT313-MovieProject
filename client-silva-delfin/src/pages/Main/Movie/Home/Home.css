@@ -1,0 +1,90 @@
+.main-containerr {
+  padding: 20px;
+  color: #e5e5e5; 
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-title {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 4rem;
+  color: #007bff; 
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+
+.featured-list-container {
+  width: 84.5%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: linear-gradient(to bottom, #2c2c2c, #141414); 
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8); 
+}
+
+.featured-backdrop {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff; 
+  font-size: 1.5rem;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.featured-movie-title {
+  padding: 10px;
+  position: absolute;
+  top: 440px;
+  left: 10px;
+  border-radius: 5px;
+  background-color: #007bff; 
+  color: #fff; 
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.MovieCards {
+  height: 300px;
+  background-color: #141414; 
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e50914; 
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.MovieCards:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 1); 
+  background-color: #e50914; 
+  color: #fff; 
+}

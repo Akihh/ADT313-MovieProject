@@ -1,0 +1,97 @@
+.lists-container {
+  width: 100%;
+  display: flex;
+  color: #00bfff;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 10px;
+  box-shadow: none; 
+}
+
+.create-container {
+  align-self: flex-end;
+  margin: 1rem 0;
+}
+
+.table-container,
+.movie-lists {
+  width: 100%;
+}
+
+.table-container {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  width: 90px;
+  color: #00bfff;
+  margin-left: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: none; 
+  background: #252525; 
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+button:disabled {
+  background-color: #333;
+  cursor: not-allowed;
+}
+
+.delete {
+  background: #007bff;
+}
+
+.delete:hover {
+  background: #0056b3;
+}
+
+.edit {
+  background: #007bff;
+}
+
+.edit:hover {
+  background: #0056b3;
+}
+
+.create {
+  background: #000; 
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  width: 160px;
+  margin-right: 20px;
+  border-radius: 12px;
+  padding: 12px 24px;
+  cursor: pointer;
+  box-shadow: none; 
+}
+
+.create:hover {
+  background: #007bff;
+  transform: scale(1.1);
+}
+
+.tile-cell {
+  text-align: justify;
+  padding: 10px;
+  border-bottom: 1px solid #007bff;
+}
+
+.tile-cell:last-child {
+  border-bottom: none;
+}
